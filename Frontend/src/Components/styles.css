@@ -1,0 +1,306 @@
+.navbars {
+  border: 1px solid darkblue;
+  width: 100%;  /* Use 100% width for flexibility */
+  height: 120px;
+  padding: 10px 0; /* Add some padding for better spacing */
+  display: flex;
+  background-color: rgb(19, 13, 100);
+}
+.navbars .nav-link {
+  margin-top: 60px; /* Adjust or remove this margin */
+  padding: 10px 15px; /* Add some padding to make links more clickable */
+  font-weight: bold; /* Optional, makes the links stand out more */
+  color: lightblue;
+  font-size: larger;
+}
+.navbar-link .active {
+  background-color: rgb(235, 217, 62); /* Active background color */
+  color: white;  /* Text color for active item */
+}
+.cardreg
+{
+  width: 900px;
+  margin-left: 200px;
+  margin-top: -1100px;
+  padding: 20px;
+  border: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+.cardreg:hover
+{
+  box-shadow:  0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.btnss
+{
+  text-align: center;
+}
+.cardlog
+{
+  width: 900px;
+  margin-left: 200px;
+  margin-top: -900px;
+  padding: 20px;
+  border: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+.cardlog:hover{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.citycard
+{
+  width:600px;
+  margin-Left: 30px;
+  margin-top: -2100px;
+  opacity:0.7;
+  padding: 20px;
+  transition:opacity 0.3s ease; /* Smooth transition */
+  border: none;
+}
+.citycard:hover
+{
+  box-shadow:  0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.displaycard
+{
+  width:500px;
+  margin-Left: 700px;
+  margin-top: -250px;
+  opacity:0.9;
+  color: white;
+  transition: opacity 0.2s ease;
+  text-align: center;
+}
+.displaycard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.bankcard
+{
+  width:600px;
+  margin-Left: 30px;
+  margin-top: -600px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.bankcard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.displaybank
+{
+  width:600px;
+  margin-Left: 700px;
+  margin-top: -250px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.displaybank:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.managercard
+{
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 30px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.managercard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.displaymanager
+{
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 30px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.displaymanager:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.servicecard
+{
+  
+  width: 600px;
+  margin-left: 20px;
+  margin-top: -900px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.servicecard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.displayservices
+{
+  width: 600px;
+  margin-left: 700px;
+  margin-top: -200px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.displayservices:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.createacct
+{
+  width:1200px;
+  margin-left: 80px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.createacct:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.depositform
+{
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 30px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.depositform:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.withdrawform
+{
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 30px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+.withdrawform:hover
+{
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.addloan
+{
+  width:600px;
+  margin-Left: 30px;
+  margin-top: 30px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.addloan:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.displayloan
+{
+  width:600px;
+  margin-Left: 700px;
+  margin-top: -200px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.displayloan:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.applyloan
+{
+  width:1000px;
+  margin-Left: 200px;
+  margin-top: 30px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.applyloan:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.checkbalance
+{
+  width:500px;
+  margin-Left: 400px;
+  margin-top: 100px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.checkbalance:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.viewaccts
+{
+  width:1350px;
+  margin-Left: 10px;
+  margin-top: 10px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.viewaccts:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.viewloans
+{
+  width:1350px;
+  margin-Left: 10px;
+  margin-top: 10px;
+  opacity:0.7;
+  transition: opacity 0.2s ease;
+}
+.viewloans:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.areacard
+{
+  width:600px;
+  margin-Left: 30px;
+  margin-top: -2100px;
+  opacity:0.7;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+}
+.areacard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.displayarea
+{
+  width:500px;
+  margin-Left: 700px;
+  margin-top: -350px;
+  opacity:0.7;
+  color: white;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 20px;
+}
+.displayarea:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.caroselimgs
+{
+  height: 100px;
+}
+.grids
+{
+  background-color: black;
+  height: 900px;
+}
+.contactinfo
+{
+  background-color: lightgray;
+  height: 900px;
+}
+.info 
+{
+  margin-left: 700px;
+  margin-top: -400px;
+
+}
